@@ -1,0 +1,6 @@
+theme: jekyll-theme-leap-day
+repository: redsoftware-hq/redsoftware-hq.github.io
+title: Red Software
+description: '— the f00 company —'
+gems:
+  - jemoji
