@@ -1,6 +1,8 @@
-theme: jekyll-theme-leap-day
-repository: redsoftware-hq/redsoftware-hq.github.io
+theme: jekyll-theme-midnight
+repository: redsoftware-hq/blog.redsoftware.in
 title: toogle
-description: '— the f00 blog —'
+description: Here's our mistake!
+disqus:
+  shortname: toogle
 gems:
   - jemoji

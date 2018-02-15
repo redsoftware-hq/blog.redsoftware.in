@@ -1,16 +1,12 @@
 ---
 layout: default
 ---
-
-# Home
-
 {% if site.posts.size > 0 %}
-
-<ul class="onak-blog-list">
+<ul>
     {% for post in site.posts %}
-    <li class="onak-blog-list-item">
-        <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
-        <span class="post-title"><a href="{{post.url}}">{{post.title}}</a></span>
+    <li>
+        <span>{{ post.date | date: "%b %-d, %Y" }}</span>
+        <span><a href="{{post.url}}">{{post.title}}</a></span>
     </li>
     {% endfor %}
 </ul>
