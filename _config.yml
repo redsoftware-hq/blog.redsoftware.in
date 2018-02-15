@@ -4,5 +4,6 @@ title: toogle
 description: Here's our mistake!
 disqus:
   shortname: toogle
-gems:
+plugins:
   - jemoji
+  - jekyll-feed
