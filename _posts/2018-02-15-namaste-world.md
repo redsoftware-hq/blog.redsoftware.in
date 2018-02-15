@@ -1,6 +1,7 @@
 ---
 layout: post
 title: नमस्ते World
+date: 2018-02-15 09:00:00
 author: ronak
 ---
 ![Red Software Blurred Mugshot]({{ "/assets/images/red-software-blurred-mugshot.jpg" | absolute_url }})
