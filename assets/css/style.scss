@@ -1,16 +1,30 @@
 ---
 ---
-
 @import "{{ site.theme }}";
 
-body {
-    font-size: 16px;
-    line-height: 24px;
+// body {
+//     font-size: 16px;
+//     line-height: 24px;
+//     background: #f7f7f7;
+// }
+
+#content {
+  max-width: 652px;
+  margin: 45px auto;
+  // background: #fff;
+  // color: #000;
 }
 
 header {
     background: #C41E3A;
+    position: unset;
+    margin: 0 auto;
+    width: 720px;
 }
+
+// header h1 {
+//   margin-bottom: 10px;
+// }
 
 header h1 {
     text-shadow: 0px 2px 0px #8C1515;
@@ -35,6 +49,10 @@ header p {
 #banner {
     background: #333;
     border: 1px solid #333;
+    position: unset;
+    margin-right: unset;
+    width: 702px;
+    margin: -26px auto;
 }
 
 #banner .img-icon img {
@@ -50,6 +68,12 @@ header p {
 }
 
 @media print, screen and (max-width: 720px) {
+  header p {
+    display: unset;
+  }
+  header h1 {
+    margin-bottom: 0;
+  }
     #banner .fork {
         height: 38px;
         padding: 0 10px;
@@ -58,6 +82,10 @@ header p {
 
     #banner .img-icon img {
         margin-top: 7px;
+    }
+
+    #content {
+      margin-top: 0;
     }
 }
 
@@ -70,10 +98,6 @@ header p {
 }
 
 @media print, screen and (min-width: 1061px) {
-    #banner {
-        margin-right: -25%;
-    }
-
     .wrapper {
         width: auto;
     }
@@ -94,3 +118,43 @@ header p {
         padding: 0;
     }
 }
+
+.onak-blog-list-item > .post-date {
+  display: block;
+  text-transform: uppercase; 
+  color: #999; 
+  font-size: 75%;
+}
+
+.onak-blog-list-item > .post-title {
+  margin-left: 0 !important;
+}
+
+.onak-blog-list {
+  list-style: none;
+  padding: 0;
+}
+
+.onak-blog-list-item {
+   padding: 16px 0;
+   border-bottom: 1px solid rgba(0,0,0,.13);
+}
+
+.onak-blog-list-item:first-child {
+  padding-top: 0;
+}
+
+.onak-blog-list-item > .post-date {
+  text-transform: uppercase; 
+  color: #999; 
+  font-size: 75%;
+}
+
+.onak-blog-list-item > .post-title {
+  margin-left: 15px;
+}
+
+.onak-blog-list-item > .post-title a {
+   text-transform: uppercase;
+}
+
