@@ -115,3 +115,6 @@ export class MyAppModule { }
 આશા રાખું છું કે આપને આ post દ્વારા જરૂરી guidance મળ્યું હશે. તમને Angular, Angular Material અથવાતો programming વિષે કઈ પણ જાણવાની ઈચ્છા કે પ્રશ્નો હોય તો નીચે comments દ્વારા જરૂર થી મને જણાવો. હું video કે blog post દ્વારા બને એટલા જલ્દી આપને એ પ્રશ્નોના જવાબ પહોચાડવાનો પ્રયત્ન કરીશ.
 
 આભાર!
+
+
+સંદર્ભ : [Angular Material official documents](https://material.angular.io)
